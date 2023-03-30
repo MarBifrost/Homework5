@@ -1,0 +1,286 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: Opensans;
+    src: url(../assets/fonts/Opensans.ttf);
+}
+
+
+
+header {
+
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 5px 10px;
+    gap: 25px;
+}
+header .logo {
+    position: absolute;
+    width: 36px;
+    left: 162px;
+    top: 69px;
+}
+
+h1 {
+    position: absolute;
+    width: 564px;
+    font-style: bold;
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 40px;
+    width: 154px;
+    height: 45px;
+    left: 207px;
+    top: 75px;
+    color: #274C5B;
+}
+.menu li {
+    position: Relative;
+    display: inline-block;
+    width: 100px;
+    height: 23px;
+    left: 510px;
+    top: 85px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+}
+.cover {
+    position: absolute;
+    display: block;
+    top: 190px;
+    width: 1890px;
+    height: 450px;
+    background: url(../assets/images/cover.png);
+}
+.man {
+    position: absolute;
+    display: block;
+    top: 750px;
+    width: 1266px;
+    height: 700px;
+    left: 300px;
+}
+.services {
+    position: absolute;
+    display: block;
+    width: 1900;
+    top: 900px;
+    left: -100px;
+}
+.store {
+    position: absolute;
+    left: 600px;
+    top: 630px;
+    width: 517px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #274C5B;
+}
+.facts {
+    position: absolute;
+    width: 936px;
+    height: 180px;
+    left: 600px;
+    top: 750px;
+    font-family: 'Opensans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    padding: 3 10px;
+    /* or 30px */
+    color: #525C60;
+}
+.hands  {
+    position: absolute;
+    display: inline-block;
+    left: 500px;
+    top: 1900px;
+    border-radius: 10%;     
+}
+.why {
+    width: 142px;
+    height: 29px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    top: 2060px;
+    color: #274C5B;
+}
+.organic {
+    position: absolute;
+    top: 2000px;
+    left: 920px;
+    font-family: 'Opensans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+}
+
+.pro {
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    top: -10px;
+    left: 0px;
+
+
+}
+.produce {
+    position: relative;
+    top: 2260px;
+    left: 550px;
+    font-family: 'Opensans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    /* or 30px */
+    color: #525C60;
+
+}
+.plants {
+    position: absolute;
+    top: 2220px;
+    left: 1050px;
+
+}
+
+.farm {
+    position: relative;
+    top: 2420px;
+    left: 500px;
+    width: 936px;
+    height: 90px;
+
+    font-family: 'Opensans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    /* or 30px */
+
+
+    color: #525C60;
+}
+
+.we {
+    width: 288px;
+    height: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #274C5B;
+}
+
+.orange {
+
+    position: absolute;
+    width: 1300px;
+    height: 300px;
+    left: 300px;
+    top: 2780px;
+
+}
+
+.end {
+    position: relative;
+    display: flex;
+    justify-content: space-eround;
+    top: 2900px;
+    font-family: 'Opensans';
+    left: 300px;
+}
+
+.contact {
+
+    Font-style: Bold;
+    Font-size: 30px;
+    Line-height: 35px;
+    Line-height: 50px;
+    color: #274C5B;
+}
+
+
+.details {
+
+    Font-style: Mixed;
+    Font-size: 18px;
+    Line-height: 30px;
+    Line-height: 165%;
+
+}
+
+span {
+
+    font-weight: 800;
+
+}
+
+
+
+.textorg {
+    Font-family: Roboto;
+    Font-size: 38px;
+    line-height: 12px;
+    left: 540px;
+    top: 20px;
+    color: #274C5B;
+}
+
+.util {
+    position: absolute;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: 800px;
+    line-height: 40px;
+    line-height: 273%;
+    text-align: left;
+    left: 1100px;
+    color: #525C60;
+}
+
+.logo1 {
+    position: absolute;
+    left: 500px;
+    width: 36px;
+}
+
+h3 {
+    position: absolute;
+    font-family: 'Opensans';
+    color: #525C60;
+    top: 100px;
+    left: 410px;
+    text-align: center
+}
+
+
+.theend {
+    position:absolute;
+    text-align: center;
+    left: 640px;
+    top: 3500px;
+    font-family: 'Opensans';
+    color: #525C60;
+}
